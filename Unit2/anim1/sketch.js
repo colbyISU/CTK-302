@@ -3,6 +3,7 @@ let x = 0;
 function setup() {
   createCanvas(500, 500);
   rectMode(CENTER);
+  font1 = loadFont("assets/Bebas.otf");
 }
 
 function draw() {
@@ -13,6 +14,6 @@ function draw() {
   if (x > width) {
     x = 0;
   }
-
-  rect(x, height/2, 10, 50);
+  textFont(font1, 40)
+  text("Jacob Colby", x, height/2);
 }
