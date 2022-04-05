@@ -126,7 +126,7 @@ function Spawn() {
 function checkForKeys() {
   if (keyIsDown(LEFT_ARROW) || keyIsDown(65)) bucketPos.x = bucketPos.x - 5;
   if (keyIsDown(RIGHT_ARROW) || keyIsDown(68)) bucketPos.x = bucketPos.x + 5;
-  if (keyIsDown(UP_ARROW) || keyIsDown(871)) bucketPos.y = bucketPos.y - 5;
+  if (keyIsDown(UP_ARROW) || keyIsDown(87)) bucketPos.y = bucketPos.y - 5;
   if (keyIsDown(DOWN_ARROW) || keyIsDown(83)) bucketPos.y = bucketPos.y + 5;
 
 }
