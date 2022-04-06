@@ -15,10 +15,10 @@ function setup() {
   //Fullscreen
   createCanvas(windowWidth, windowHeight);
 
-  slimes[0] = loadImage("assets/slime1.PNG");
-  slimes[1] = loadImage("assets/slime2.PNG");
-  slimes[2] = loadImage("assets/slime3.PNG");
-  bucket = loadImage("assets/bucket.PNG");
+  slimes[0] = loadImage("assets/slime1.png");
+  slimes[1] = loadImage("assets/slime2.png");
+  slimes[2] = loadImage("assets/slime3.png");
+  bucket = loadImage("assets/bucket.png");
 
   slime = loadImage("assets/slime1.png");
 
@@ -26,7 +26,7 @@ function setup() {
   lose = loadImage('assets/lose.png');
   win = loadImage('assets/win.png');
   font1 = loadFont('assets/Slime.ttf');
-  hit = loadSound('assets/hit.mp3');
+  hit = loadSound('assets/Hit.mp3');
 
   for (var i = 0; i < 8; i++) {
     spawns.push(new Spawn());
