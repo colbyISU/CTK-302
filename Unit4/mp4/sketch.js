@@ -76,10 +76,13 @@ function draw() {
 
   // decorations
   fill('black');
-  textSize(40);
+  textSize(30);
   textAlign(CENTER);
   textFont(font);
+  fill("White");
   text("Collect the gems!", width / 2, 260, windowWidth - 200, windowHeight - 200);
+  textSize(15);
+  text("SHAKE TO PLAY AGAIN", width / 2, 260, windowWidth - 50, windowHeight - 50);
 
 
 }
